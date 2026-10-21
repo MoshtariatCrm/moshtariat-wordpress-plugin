@@ -8,8 +8,7 @@
  * Author URI: https://moshtariat.ir
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: moshtariat-crm
- * Domain Path: /languages
+ * Text Domain: moshtariat-crm-integration
  * Requires at least: 5.6
  * Requires PHP: 7.4
  */
@@ -41,7 +40,7 @@ add_action('plugins_loaded', 'moshtariat_crm_init');
  * Plugin action links.
  */
 function moshtariat_crm_action_links($links) {
-    $settings_link = '<a href="' . esc_url(admin_url('admin.php?page=moshtariat-crm')) . '">' . esc_html__('تنظیمات', 'moshtariat-crm') . '</a>';
+    $settings_link = '<a href="' . esc_url(admin_url('admin.php?page=moshtariat-crm')) . '">' . esc_html__('تنظیمات', 'moshtariat-crm-integration') . '</a>';
     array_unshift($links, $settings_link);
     return $links;
 }
