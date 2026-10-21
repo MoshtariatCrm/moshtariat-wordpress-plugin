@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Moshtariat CRM Integration
- * Plugin URI: https://moshtariat.ir
+ * Plugin URI: https://github.com/MoshtariatCrm/moshtariat-wordpress-plugin
  * Description: Connect WordPress forms (Contact Form 7, Gravity Forms, WPForms) and WooCommerce orders directly to Moshtariat CRM (سی ار ام ابری مشتریات) pipeline.
  * Version: 1.0.0
  * Author: Moshtariat
